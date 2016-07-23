@@ -1,7 +1,7 @@
 var assertions = {
     assertTrue: function (condition, message) {
         if (!condition) {
-            throw new Error(message || "Expected to be true, bug got false");
+            throw new Error(message || "Expected to be true, but got false");
         }
     },
     
